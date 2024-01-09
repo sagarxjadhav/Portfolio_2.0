@@ -1,0 +1,150 @@
+h1{
+    margin-top: 0;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 50px;
+    font-size: 90px;
+}
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    width: 100%;
+   
+}
+
+.top-container{
+
+    background-color: rgb(184, 245, 248);
+    position: relative;
+    padding-top:100px;
+
+}
+
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align:left;
+    line-height:2;
+}
+
+.img3 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile{
+    width: 50%;
+    margin: auto;
+    text-align:left;
+    line-height:2;
+}
+
+.png{
+    float: left;
+    width: 25%;
+    margin-right:13%;
+}
+h1{
+    line-height:2;
+    color: #66BFBF;
+}
+
+h2{
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    margin-top: 5vw;
+    text-align: center;
+    color: #66BFBF;
+    word-spacing: normal;
+    margin-bottom: 5vw;
+}
+
+#mesam{
+    text-decoration: underline;
+}
+
+.footer-link{
+    color: #169b9b;
+}
+
+.bottom-container{
+    background-color: #b3eaea;
+}
+
+.btn{
+    color: #1b3434;
+}
+
+
+
+.navbar-brand{
+    color:white;
+}
+
+nav{
+    background-color: #43bfbf;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for screens smaller than 600px (smartphones) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+   
+
+    .bottom-cloud,
+    .top-cloud {
+        display: none; /* Hide clouds on smaller screens */
+    }
+}
+
+
